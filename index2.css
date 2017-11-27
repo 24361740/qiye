@@ -1,0 +1,231 @@
+body,ul,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.box{
+	width: 1349px;
+	height: 164px;
+	background-image: url('img/a1.jpg');
+	overflow: hidden;
+}
+.box .son{
+	width: 1200px;
+	height: 55px;
+	margin: 33px auto;
+}
+.box .son img {
+	float: left;
+}
+.box .son .right{
+	width: 576px;
+	height: 35px;
+	float: right;
+}
+.box .right span{
+	color: #fff;
+	font-size: 12px;
+	line-height: 35px;
+	margin-left: 36px;
+	float: left;
+}
+.box .right .sou{
+	width: 300px;
+	height: 55px;
+	float: right;
+}
+.box .right .sou1{
+	width: 245px;
+	height: 35px;
+	border-radius: 5px;
+	/* margin: 5px 35px; */
+	box-sizing: border-box;
+	float: left;
+	border: 0;
+}
+.box .right .sou2{
+	width: 40px;
+	height: 35px;
+	float: right;
+	background-color: #d20001;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.box .dao{
+	width: 1349px;
+	height: 59px;
+	background-color: #A41515;
+}
+.box .dao .nei{
+	width: 1200px;
+	height:59px;
+	margin: 0 auto; 
+
+}
+.box .dao .fen{
+	width: 1180px;
+	height: 59px;
+}
+.box .dao  .fen div{
+	width: 68px;
+	height: 35px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.box .dao  .fen div:hover{
+	background-color: #B41312;
+}
+.lian{
+	width: 1349px;
+	height: 668px;
+}
+.lian .nei{
+	width: 1200px;
+	height: 668px;
+	margin: 0 auto;
+}
+.lian .nei .xi{
+	width: 1200px;
+	height: 67px;
+}
+.lian .nei .left{
+	width: 374px;
+	height: 45px;
+	border-bottom: 3px solid red;
+	float: left;
+}
+.lian .nei .left div{
+	line-height: 45px;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+}
+.lian .nei .left img{
+	float: left;
+	margin-top:18px;
+	margin-left: 19px;
+}
+.lian .nei .right{
+	width: 767px;
+	height: 18px;
+	float: right;
+	margin-top: 40px;
+}
+.lian .nei .right img{
+	float: right;
+}
+.lian .nei .right div{
+	float: right;
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+}
+.lian .nei .rong{
+	width: 600px;
+	height: 82px;
+	margin: 62px auto 0;
+}
+.lian .nei .rong div{
+	font-size: 14px;
+}
+.lian .nei .zi{
+	width: 600px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.zi .zuo{
+	width: 80px;
+	height: 35px;
+	float: left;
+}
+.lian .nei input{
+	width: 500px;
+	height: 35px;
+ 	float: right;
+}
+.lian .nei .input1{
+	height: 70px;
+}
+.lian .nei .ti{
+	width: 600px;
+	height: 40px;
+	margin: 70px auto;
+}
+.lian .nei .ti .jiao{
+	width: 94px;
+	height: 40px;
+	background-color: #d20001;
+	margin-left: 95px;
+	border-radius: 10%;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+}
+.bxia{
+	width: 1349px;
+	height: 62px;
+	background-color: #B41312;
+	overflow: hidden;
+}
+.bxia .nei{
+	width: 548px;
+	height: 22px;
+	margin: 20px auto;
+}
+.bxia .nei img{
+	float: left;
+	margin-left: 30px;
+}
+.bxia .nei div{
+	width: 56px;
+	height: 16px;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 15px;
+}
+.last{
+	width: 1349px;
+	height: 90px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+.last .zhong{
+	width: 1349px;
+	height: 18px;
+	margin-top: 42px;
+	text-align: center;
+}
+.last .zhong .z_1{
+	width:440px;
+	height: 18px;
+	margin: 0 auto;
+}
+.last .zhong .z_1 div{
+	float: left;
+	font-size: 12px;
+	color: #000;
+	margin-left: 15px;
+	
+}
+.last .zhong .z_1 span{
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #ccc;
+}

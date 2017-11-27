@@ -1,0 +1,214 @@
+body,ul,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.box{
+	width: 1349px;
+	height: 164px;
+	background-image: url('img/a1.jpg');
+	overflow: hidden;
+}
+.box .son{
+	width: 1200px;
+	height: 55px;
+	margin: 33px auto;
+}
+.box .son img {
+	float: left;
+}
+.box .son .right{
+	width: 576px;
+	height: 35px;
+	float: right;
+}
+.box .right span{
+	color: #fff;
+	font-size: 12px;
+	line-height: 35px;
+	margin-left: 36px;
+	float: left;
+}
+.box .right .sou{
+	width: 300px;
+	height: 55px;
+	float: right;
+}
+.box .right .sou1{
+	width: 245px;
+	height: 35px;
+	border-radius: 5px;
+	/* margin: 5px 35px; */
+	box-sizing: border-box;
+	float: left;
+	border: 0;
+}
+.box .right .sou2{
+	width: 40px;
+	height: 35px;
+	float: right;
+	background-color: #d20001;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.box .dao{
+	width: 1349px;
+	height: 59px;
+	background-color: #A41515;
+}
+.box .dao .nei{
+	width: 1200px;
+	height:59px;
+	margin: 0 auto; 
+
+}
+.box .dao .fen{
+	width: 1180px;
+	height: 59px;
+}
+.box .dao  .fen div{
+	width: 68px;
+	height: 35px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.box .dao  .fen div:hover{
+	background-color: #B41312;
+}
+.banner{
+	width: 1349px;
+	height: 449px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.banner img{
+	width: 1349px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner .zuo{
+	width: 40px;
+	height: 40px;
+	background-color:rgba(0,0,0,0.3);
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	border-radius: 40px;
+	display: none;
+}
+.banner:hover .zuo{
+	display: block;
+}
+.banner .you{
+	width: 40px;
+	height: 40px;
+	background-color:rgba(0,0,0,0.3);
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	border-radius: 40px;
+	display: none;
+}
+.banner:hover .you{
+	display: block;
+}
+.banner .zuo:hover{
+	background-color:rgba(0,0,0,0.7); 
+}
+.banner .you:hover{
+	background-color:rgba(0,0,0,0.7); 
+}
+.banner .iconfot{
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.banner ul{
+	width: 69px;
+	height: 21px;
+	position: absolute;
+	bottom: 0;
+	right: 2px;
+	margin: 0;
+	padding: 0;
+}
+.banner ul li{
+	width: 11px;
+	height: 11px;
+	float: left;
+	margin-right: 10px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 50%;
+}
+.banner ul li:hover{
+	background: rgba(255,255,255,0.9);
+	cursor: pointer;
+}
+.bxia{
+	width: 1349px;
+	height: 62px;
+	background-color: #B41312;
+	overflow: hidden;
+}
+.bxia .nei{
+	width: 548px;
+	height: 22px;
+	margin: 20px auto;
+}
+.bxia .nei img{
+	float: left;
+	margin-left: 30px;
+}
+.bxia .nei div{
+	width: 56px;
+	height: 16px;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 15px;
+}
+.last{
+	width: 1349px;
+	height: 90px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+.last .zhong{
+	width: 1349px;
+	height: 18px;
+	margin-top: 42px;
+	text-align: center;
+}
+.last .zhong .z_1{
+	width:440px;
+	height: 18px;
+	margin: 0 auto;
+}
+.last .zhong .z_1 div{
+	float: left;
+	font-size: 12px;
+	color: #000;
+	margin-left: 15px;
+	
+}
+.last .zhong .z_1 span{
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #ccc;
+}
